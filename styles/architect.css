@@ -4,9 +4,18 @@
 /* shared styles  */
 * {
     font-family: 'Work Sans', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 .btn-primary{
-    
+    border-radius: 8px;
+    color: #FFFFFF;
+    background: #FF900E;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
 }
 /* header styles  */
 
@@ -61,4 +70,29 @@ nav li a {
     color: #727272;
     font-size: 1rem;
 
+}
+.banner img{
+    margin-top: 20px;
+    width: 100%;
+}
+
+/* responsive midea queries  */
+/* mobile devives  */
+@media screen and (max-width: 576px){
+    header{
+        padding: 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+ 
+}
+/* tablet or medium devices  */
+@media screen and (min-width: 577px) and (max-width:960px){
+   header{
+    padding: 25px;
+   }
+    /* nav{
+        flex-direction: column;
+    } */
 }
